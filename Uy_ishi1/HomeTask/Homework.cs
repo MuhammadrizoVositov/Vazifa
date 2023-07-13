@@ -21,17 +21,28 @@ namespace Uy_ishi1.HomeTask
             //        2 qism 
 
 
-            //DateTime date = DateTime.Now;
-            string g = "1970 - yil 1-yanvar";
-            Console.WriteLine(g);
-            int f = 75;
-            Console.WriteLine(f + " yosh");
-            //double m = 35.5;
-            //Console.WriteLine(m + "$");
+          
             //        3 qism 
 
-            //int age = 24;
-            // Console.WriteLine(age);
+            // primitive:
+            string productName = "top";
+            int age = 33;
+            Console.WriteLine(productName, age);
+
+            // complex:
+            DateTime moment = DateTime.Now;
+            Console.WriteLine(moment);
+
+
+            // value:
+            int valueA = 12;
+            short valueB = 9;
+            Console.WriteLine(valueA);
+            Console.WriteLine(valueB);
+
+            // reference:
+            string valueC = "Mark";
+            Console.WriteLine(valueC);
 
         }
 
