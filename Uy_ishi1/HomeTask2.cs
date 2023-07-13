@@ -1,12 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Uy_ishi1
+﻿//Console.WriteLine("Emailingizni kiriting:");
+string str = "example@gmail.com";
+var strTest = "!#$%^&*(){}[]?><.,';:|";
+var strError = "ASDFGHJKLQWERTYUIOPZXCVBNM";
+for (int i = 0; i < strTest.Length; i++)
 {
-    internal class HomeTask2
+    for (int j = 0; j < str.Length; j++)
     {
+        if (strTest[i] == str[j])
+        {
+            Console.WriteLine(strTest[i] + " xato");
+        }
     }
 }
+
+for (int i = 0; i < strError.Length; i++)
+{
+    for (int j = 0; j < str.Length; j++)
+    {
+        if (strError[i] == str[j])
+        {
+            Console.WriteLine(str.ToLower());
+        }
+    }
+}
+
+
+
+
+
